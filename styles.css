@@ -1,0 +1,48 @@
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #dcdddb;
+}
+
+h1 {
+    color: #1a1919;
+    text-shadow: 5px 5px 5px #f2f2f2;
+}
+
+#index-title {
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid #78848a;
+}
+
+h2,
+.ingredients {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #28374b;
+}
+
+a:hover {
+    background-color: #293b27;
+    color: #f2f2f2;
+}
+
+.recipe-page-link {
+    border: solid 1px #28374b;
+    padding: 1px;
+}
