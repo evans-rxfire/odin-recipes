@@ -7,17 +7,45 @@ body {
 h1 {
     color: #1a1919;
     text-shadow: 5px 5px 5px #f2f2f2;
-}
-
-#index-title {
     text-align: center;
 }
 
-img {
+#recipe-images {
+    display: inline-block;
+}
+
+.img-recipe {
+width: 30%;
+opacity: 60%;
+padding: 10px;
+}
+
+.img-recipe:hover {
+    opacity: 100%;
+}
+
+.div-desc,
+.div-ing,
+.div-step {
+    display: block;
+    width: 80%;
+}
+
+.img-desc {
     height: auto;
     width: 500px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid #78848a;
+}
+
+.ar-link {
+    background-color: yellow;
+    text-decoration: none;
+    color: #28374b;
+}
+
+.div-ing {
+    background-color: #28374b50;
 }
 
 h2,
@@ -31,18 +59,39 @@ h6 {
     padding: 0;
 }
 
-a,
-a:visited {
+.div-step {
+    background-color: #293b2750;
+}
+
+.link,
+.link:visited,
+.recipe-page-link,
+.recipe-page-link:visited {
     text-decoration: none;
     color: #28374b;
 }
 
-a:hover {
+.link:hover,
+.ar-link:hover,
+.recipe-page-link:hover {
     background-color: #293b27;
     color: #f2f2f2;
 }
 
+.bottom-links {
+    display: inline-block;
+}
+
 .recipe-page-link {
     border: solid 1px #28374b;
-    padding: 1px;
+    padding: 2px;
+}
+
+#home:hover {
+    background-color: yellow;
+    color: #1a1919;
+}
+
+.img-link:hover {
+background-color: transparent !important;
 }
